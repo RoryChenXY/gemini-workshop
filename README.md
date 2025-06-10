@@ -9,7 +9,7 @@ This workshop teaches how to build with Gemini using the Gemini API and Python S
 
 Course outline:
 
-- [Part1: Quickstart + Text prompting](https://github.com/patrickloeber/workshop-build-with-gemini/blob/cloud-summit-nordics/01-text-prompting.ipynb)
+- [Part 1: Quickstart + Text prompting](https://github.com/patrickloeber/workshop-build-with-gemini/blob/cloud-summit-nordics/01-text-prompting.ipynb)
     - Text understanding
     - Streaming response
     - Chats
