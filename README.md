@@ -19,7 +19,7 @@ Course outline:
     - Token usage
     - Final excercise: Chat with book
 
-- [Part 2: Multimodal understanding (image, video, audio, docs, code)](https://github.com/patrickloeber/workshop-build-with-gemini/blobcloud-summit-nordics/02-multimodal-understanding.ipynb)
+- [Part 2: Multimodal capabilities (image, video, audio, docs, code)](https://github.com/patrickloeber/workshop-build-with-gemini/blobcloud-summit-nordics/02-multimodal-understanding.ipynb)
     - Image
     - Video
     - Audio
