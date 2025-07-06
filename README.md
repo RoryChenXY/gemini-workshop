@@ -2,40 +2,26 @@
 
 This workshop teaches how to build with Gemini using the Gemini API and Python SDK.
 
-> [!NOTE]
-> I recommend first going through the notebooks and exercises in the [notebooks](https://github.com/patrickloeber/workshop-build-with-gemini/blob/main/notebooks/) folder. You'll find the same notebooks but with the solutions in [solutions](https://github.com/patrickloeber/workshop-build-with-gemini/blob/main/solutions/).
-
 **Prerequisites**: You need an API key from [Google AI Studio](https://aistudio.google.com/apikey). Everything can be done on the free tier.
 
-Course outline:
+## Course outline
 
-- [Part1: Quickstart + Text prompting](https://github.com/patrickloeber/workshop-build-with-gemini/blob/main/notebooks/part-1-text-prompting.ipynb)
-    - Text understanding
-    - Streaming response
-    - Chats
-    - System prompts
-    - Config options
-    - Long context
-    - Token usage
-    - Final excercise: Chat with book
+| Topic | Description | Code |
+|----------|-------------|----------|
+| 🥱 00 Setup & API key | Get started with the Gemini API and Python SDK | [Setup README](./00-setup.md) |
+| 🥱 01 Text prompting | Learn about text prompting, chats, token usage, parameters | <a href="https://colab.research.google.com/github/patrickloeber/workshop-build-with-gemini/blob/main/01-text-prompting.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a> |
+| 🥱 02 Multimodal capabilities | Prompt with images, videos, audio, PDFs, and code, and perform TTS | <a href="https://colab.sandbox.google.com/github/patrickloeber/workshop-build-with-gemini/blob/main/02-multimodal-capabilities.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a> |
+| 🥱 03 Thinking and tools | Learn about thinking configurations, structured outputs, and tools | <a href="https://colab.research.google.com/github/patrickloeber/workshop-build-with-gemini/blob/main/03-thinking-and-tools.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a> |
+| 🥱 04 Live API | Talk to Gemini live and stream audio & video | [Live API README](./04-live-api/README.md) |
+| 🥱 05 MCP | Connect Gemini to a locally running and remote MCP server | [MCP README](./05-mcp/README.md) |
+| 🥱 06 Gemini 2.5 comparisons | Compare Gemini 2.5 Pro, Flash, and Flash-Lite on a few tasks | <a href="https://colab.research.google.com/github/patrickloeber/workshop-build-with-gemini/blob/main/06-gemini-2-5-evaluations.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a> |
 
-- [Part 2: Multimodal understanding (image, video, audio, docs, code)](https://github.com/patrickloeber/workshop-build-with-gemini/blob/main/notebooks/part-2-multimodal-understanding.ipynb)
-    - Image
-    - Video
-    - Audio
-    - Documents (PDFs)
-    - Code
-    - Final excercise: Analyze supermarket invoice
+## Resources
 
-- [Part 3: Thinking models + agentic capabilities (tool usage)](https://github.com/patrickloeber/workshop-build-with-gemini/blob/main/notebooks/part-3-thinking-and-tools.ipynb)
-    - Thinking models
-    - Structured outputs
-    - Code execution
-    - Grounding with Google Search
-    - Function calling
-    - Final excercise: Give Gemini access to the PokéAPI to answer Pokémon questions
+- [Google AI Studio](https://aistudio.google.com/)
+- [Gemini API Documentation](https://ai.google.dev/gemini-api/docs)
+- [Google Gen AI Python SDK](https://github.com/googleapis/python-genai)
 
-**Next steps**: There's even more you can do with Gemini:
+## Connect
 
-- [Image creation and editing with Gemini 2.0](https://github.com/patrickloeber/genai-tutorials/blob/main/notebooks/gemini-image-editing.ipynb)
-- [Live API: Talk to Gemini and share your camera](https://aistudio.google.com/live) & [Live API cookbook](https://github.com/google-gemini/cookbook/blob/main/quickstarts/Get_started_LiveAPI.ipynb)
+If you have questions or feedback, reach out on X [@patloeber](https://x.com/patloeber).
