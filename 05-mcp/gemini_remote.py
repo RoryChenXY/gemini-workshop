@@ -21,7 +21,7 @@ async def run():
                 tools=[session],
             )
             print("Agent is ready. Type 'exit' to quit.")
-            chat = client.aio.chats.create(model="gemini-2.5-flash-preview-05-20", config=config)
+            chat = client.aio.chats.create(model="gemini-2.5-flash", config=config)
             while True:
                 user_input = input("You: ")
                 if user_input.lower() == "exit":

@@ -54,7 +54,7 @@ client = genai.Client(api_key=GEMINI_API_KEY)
 
 # Test generation
 response = client.models.generate_content(
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash",
     contents="Hello, world!"
 )
 print(response.text)
@@ -65,11 +65,13 @@ print(response.text)
 The Gemini API provides a range of powerful models to suit different needs. When you make an API call, you'll specify which model you want to use by its unique ID. You can always find the most up-to-date information on available models and their capabilities in the [official Google AI documentation](https://ai.google.dev/gemini-api/docs/models).
 
 
-| Model Name                     | Model ID (Example)                   | Free Tier Available |
-| ------------------------------ | ------------------------------------ | ------------------- | 
-| Gemini 2.0 Flash               | `gemini-2.0-flash`                   | Yes                 | 
-| Gemini 2.5 Flash Preview       | `gemini-2.5-flash-preview-05-20`     | Yes                 |
-| Gemini 2.5 Pro Preview         | `gemini-2.5-pro-preview-06-05`       | No                  |
+| Model Name                     | Model ID (Example)                    | Free Tier Available |
+| ------------------------------ | ------------------------------------- | ------------------- | 
+| Gemini 2.0 Flash               | `gemini-2.0-flash`                    | Yes                 | 
+| Gemini 2.5 Flash-Lite          | `gemini-2.5-flash-lite-preview-06-17` | Yes                 | 
+| Gemini 2.5 Flash               | `gemini-2.5-flash`                    | Yes                 | 
+| Gemini 2.5 Pro                 | `gemini-2.5-pro`                      | Yes                 | 
+
 
 **Note:** "Preview" models may change before becoming stable and might have more restrictive rate limits. Always check the official documentation for the latest details.
 
