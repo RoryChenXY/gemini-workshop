@@ -32,3 +32,11 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
+if response.interrupted:
+  # If that was realtime playback we would stop playing audio
+  # and clear queued playback here. For simplicity this example
+  # just writes to file so there is nothing to do.
+  pass

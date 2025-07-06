@@ -88,7 +88,7 @@ The Gemini API provides a range of powerful models to suit different needs. When
 - Familiarize yourself with available models and their use cases
 - Use Google AI Studio for quick prototyping and testing
 
-**Next Steps:** Continue with [Part 1: Text Generation and Chat](https://github.com/patrickloeber/workshop-build-with-gemini/blob/gde-summit/01-text-prompting.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/patrickloeber/workshop-build-with-gemini/blob/gde-summit/01-text-prompting.ipynb)
+**Next Steps:** Continue with [Part 1: Text Generation and Chat](https://github.com/patrickloeber/workshop-build-with-gemini/blob/main/01-text-prompting.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/patrickloeber/workshop-build-with-gemini/blob/main/01-text-prompting.ipynb)
 
 **More Resources:**
 - [Gemini API Documentation Quickstart](https://ai.google.dev/gemini-api/docs/quickstart?lang=python)
