@@ -36,7 +36,7 @@ pip install fastmcp
 Optional: Inspect the server:
 
 ```
-factmcp dev server.py
+fastmcp dev server.py
 ```
 
 Run the server:
