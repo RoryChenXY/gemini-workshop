@@ -5,16 +5,16 @@
 
 [Google AI Studio](https://aistudio.google.com/) is a developer platform that allows you to quickly experiment with Google's Gemini models. It provides a user-friendly interface for crafting and testing prompts, adjusting model parameters, and then easily exporting the code to integrate into your applications. It's a great way to prototype and explore the capabilities of Google's AI models before diving into coding with the SDK. You'll use it in this workshop to get your API Key.
 
-![Google AI Studio](https://github.com/philschmid/gemini-2.5-ai-engineering-workshop/blob/main/assets/1-0-ai-studio.png?raw=1)
+![Google AI Studio](https://github.com/markmcd/gemini-workshop/blob/main/assets/1-0-ai-studio.png?raw=1)
 
 ## 1. Get your API Key
 
 To use the Gemini API, you'll need an API key.
 
 1. Go to [Google AI Studio](https://aistudio.google.com/apikey) to create and retrieve your API key.
-![API Key](https://github.com/philschmid/gemini-2.5-ai-engineering-workshop/blob/main/assets/1-1-api-key.png?raw=1)
+![API Key](https://github.com/markmcd/gemini-workshop/blob/main/assets/1-1-api-key.png?raw=1)
 2. Copy the API key and store it as an environment variable `GEMINI_API_KEY` or if you are using Colab, set it as secret in the notebook.
-![API Key Colab](https://github.com/philschmid/gemini-2.5-ai-engineering-workshop/blob/main/assets/1-2-secrets.png?raw=1)
+![API Key Colab](https://github.com/markmcd/gemini-workshop/blob/main/assets/1-2-secrets.png?raw=1)
 
 Or for local development:
 
@@ -90,7 +90,7 @@ The Gemini API provides a range of powerful models to suit different needs. When
 - Familiarize yourself with available models and their use cases
 - Use Google AI Studio for quick prototyping and testing
 
-**Next Steps:** Continue with [Part 1: Text Generation and Chat](https://github.com/patrickloeber/workshop-build-with-gemini/blob/main/01-text-prompting.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/patrickloeber/workshop-build-with-gemini/blob/main/01-text-prompting.ipynb)
+**Next Steps:** Continue with [Part 1: Text Generation and Chat](./01-text-prompting.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/markmcd/gemini-workshop/blob/main/01-text-prompting.ipynb)
 
 **More Resources:**
 - [Gemini API Documentation Quickstart](https://ai.google.dev/gemini-api/docs/quickstart?lang=python)
