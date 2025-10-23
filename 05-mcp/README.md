@@ -15,7 +15,7 @@ Model Context Protocol (MCP) is a revolutionary approach to extending AI capabil
 - 🔄 Standardized Protocol: One protocol works with all MCP servers
 - 🔒 Centralized Security: Control access and permissions at the server level
 - 📈 Scalability: Share resources across multiple AI applications
-- 🛠️ Rich Ecosystem: Growing library of MCP servers for various use case
+- 🛠️ Rich Ecosystem: Growing library of MCP servers for various use cases
 
 ## Working with Stdio MCP Servers
 
@@ -66,7 +66,7 @@ python gemini.py
 Start chatting and e.g. ask "Add 5 and 9". It should call the MCP tool.
 
 
-## 3. Connect to a remove MCP server
+## 3. Connect to a remote MCP server
 
 This example shows how to connect to a remote MCP server.
 

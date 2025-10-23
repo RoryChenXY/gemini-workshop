@@ -1,5 +1,6 @@
-import os
 import asyncio
+import os
+
 from google import genai
 from mcp import ClientSession, StdioServerParameters, stdio_client
 
@@ -24,21 +25,17 @@ async def run():
             config = genai.types.GenerateContentConfig(
                 temperature=0,
                 tools=[session],
-
             )
             print("Agent is ready. Type 'exit' to quit.")
             chat = client.aio.chats.create(
                 model="gemini-2.5-flash", config=config
             )
-            while True:
-                user_input = input("You: ")
-                if user_input.lower() == "exit":
-                    print("Exiting chat.")
-                    break
+
+            while (user_input := input("You: ")).lower() != "exit":
 
                 # Append user message to history
                 response = await chat.send_message(user_input)
-                if len(response.automatic_function_calling_history) > 0:
+                if len(response.automatic_function_calling_history):
                     for call in response.automatic_function_calling_history:
                         if call.parts[0].function_call:
                             print(f"Function call: {call.parts[0].function_call}")
@@ -47,6 +44,8 @@ async def run():
                                 f"Function response: {call.parts[0].function_response.response['result'].content[0].text}"
                             )
                 print(f"Assistant: {response.text}")
+
+            print("Goodbye.")
 
 
 if __name__ == "__main__":

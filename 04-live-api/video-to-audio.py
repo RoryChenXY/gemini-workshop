@@ -49,6 +49,7 @@ Start talking to Gemini
 ```
 """
 
+import argparse
 import asyncio
 import base64
 import io
@@ -57,11 +58,9 @@ import sys
 import traceback
 
 import cv2
+import mss
 import pyaudio
 import PIL.Image
-import mss
-
-import argparse
 
 from google import genai
 from google.genai import types
@@ -78,7 +77,7 @@ SEND_SAMPLE_RATE = 16000
 RECEIVE_SAMPLE_RATE = 24000
 CHUNK_SIZE = 1024
 
-MODEL = "gemini-2.5-flash-preview-native-audio-dialog"
+MODEL = "gemini-live-2.5-flash-preview"
 
 DEFAULT_MODE = "screen"
 

@@ -46,8 +46,8 @@ Start talking to Gemini
 """
 
 import asyncio
-import sys
 import os
+import sys
 import traceback
 
 import pyaudio
@@ -70,7 +70,7 @@ pya = pyaudio.PyAudio()
 
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
-MODEL = "gemini-2.5-flash-preview-native-audio-dialog"
+MODEL = "gemini-live-2.5-flash-preview"
 CONFIG = {"response_modalities": ["AUDIO"]}
 
 
